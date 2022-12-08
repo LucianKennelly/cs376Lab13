@@ -35,13 +35,13 @@ void robotPrintAscii(void)
   int round = 0;
   for(int i = 0; i < 3; i++) {
 	printBlanks(10, round);
-  	printf("     i_i    \n");
+  	printf("      i_i     \n");
 	printBlanks(10, round);
-	printf("    [x_x]   \n");
+	printf("    [0|_|0]  \n");
 	printBlanks(10, round);
-	printf("   /|___|\\ \n");
+	printf("   //|___|\\ \n");
 	printBlanks(10, round);
-	printf("    d   b   \n");
+	printf("     d    b  \n");
 
 	round++;
   }
